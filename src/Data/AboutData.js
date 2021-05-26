@@ -1,0 +1,3 @@
+const aboutData = 'Trott Weiler aims to be the most friendly and convenient online, searchable database of animals who need homes. Organizations wishing to participate should register. A contact person should be responsible for direct communications with Trott Weiler. Only nonprofit organizations will be included. We are a team of 3 students looking to bring about a positive and sweeping change in the attitude people have towards animals, especially strays.'
+
+export default aboutData

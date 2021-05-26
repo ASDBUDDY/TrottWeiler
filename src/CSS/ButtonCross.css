@@ -1,0 +1,44 @@
+.Button-box button {
+  align-items: center;
+  background: yellowgreen;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  font-family: "Comfortaa";
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+.Button-box button:hover {
+  background: #fff;
+  color: yellowgreen;
+}
+.Button-box button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: yellowgreen;
+  transition: 400ms ease all;
+}
+.Button-box button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.Button-box button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.Button-box button + button {
+  margin-left: 10px;
+}

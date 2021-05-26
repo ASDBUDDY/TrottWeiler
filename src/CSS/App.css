@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4VrMDrMfIA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.App {
+  text-align: center;
+  font-family: "Comfortaa";
+  background-color: #e5e5f7;
+  background: rgba(0, 128, 0, 0.5);
+  background-image: url("../images/pawprint.png");
+  background-position: 20px 0, 20px 0, 0 0, 0 0;
+  background-size: 200px 200px;
+  background-repeat: repeat;
+}
+
+.App body {
+  font-family: "Comfortaa";
+}
+
+.App-logo {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.App-header,
+.App-footer {
+  background-color: #333;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Menu-header {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Menu-header,
+a {
+  font-family: "Comfortaa";
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.Menu-header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.Menu-header a {
+  margin-left: 10px;
+}
+
+.Left-float {
+  float: left;
+  background-color: yellowgreen;
+  width: 360px;
+  height: 50px;
+  margin-left: 10%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.Right-float {
+  float: right;
+  background-color: yellowgreen;
+  width: 300px;
+  height: 50px;
+  margin-right: 10%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.Logo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Logo-heading h1 {
+  font-family: "Comfortaa";
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Carousel-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.Carousel-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.Carousel-container h1 {
+  padding: 10px;
+  font-size: 500%;
+  font-family: "Comfortaa";
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.Heading-tag {
+  width: 100%;
+  margin: 10%;
+  transform: none;
+}
+
+.Heading-tag h1 {
+  padding: 10px;
+  font-size: 500%;
+  font-family: "Comfortaa";
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.Button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 53%;
+  left: 40%;
+}
+
+.Card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Menu-footer {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.Menu-footer li {
+  font-family: "Comfortaa";
+  list-style-type: none;
+}
+
+.Company,
+.Communities,
+.NGO {
+  font-family: "Comfortaa";
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.Menu-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.Menu-options a {
+  font-family: "Comfortaa";
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.ProfileCard-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  margin-top: 10%;
+}
+
+.Stray {
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.Google-form {
+  margin-left: 15%;
+  margin: 10%;
+}
+.Form-wrapper {
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  margin: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #333;
+  justify-content: center;
+  outline: yellowgreen 20px;
+  border-radius: 5px;
+}

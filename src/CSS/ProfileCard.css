@@ -1,0 +1,82 @@
+.Profile-left {
+  left: 25px;
+}
+
+.Profile-right {
+  right: 25px;
+}
+
+.Profile-center {
+  text-align: center;
+}
+
+.Profile-bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+.Profile-card {
+  position: relative;
+  width: 450px;
+  height: 225px;
+  padding: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 10px;
+  background: #e9e2d0;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+  transition: none;
+}
+
+.Profile-card img {
+  width: 150px;
+  float: left;
+  max-height: 200px;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  border-radius: 5px;
+  margin-right: 20px;
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  filter: sepia(1);
+}
+.Profile-wrapper {
+  transition: all 0.2s ease-in-out;
+}
+
+.Profile-wrapper:hover {
+  transform: scale(1.5);
+}
+
+.Profile-card:hover {
+  transform: none;
+}
+
+.Profile-content {
+  position: absolute;
+  width: 200px;
+  float: right;
+  margin-left: 40%;
+}
+
+.Profile-card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15pt;
+}
+
+.Profile-card p {
+  position: relative;
+  font-family: courier;
+  color: #555;
+  font-size: 13px;
+}
+
+.Profile-card span {
+  position: absolute;
+  margin-top: 45%;
+
+  font-family: courier;
+}
